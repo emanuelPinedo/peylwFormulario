@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reclamo de Reparaciones</title>
+</head>
+<body>
+    <h2>Formulario de Reclamo de Reparaciones</h2>
+    <form action="mailto:reclamos@gmail.com" method="post" enctype="text/plain">
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+
+        <label for="direccion">Dirección:</label><br>
+        <input type="email" id="direccion" name="direccion" required><br><br>
+
+
+        <label for="comentario">Comentario del Problema:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+
+
+        <button type="submit">Enviar Reclamo</button>
+    </form>
+</body>
+</html>

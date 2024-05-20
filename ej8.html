@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NombreMayorTelCom</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Nombre: " required><br><br>    
+        <label for="age">Mayor de edad:</label>
+        <select id="age" name="age">
+            <option value="si" selected>Si</option>
+            <option value="no">No</option>
+        </select><br><br>
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone" value="0299-" pattern="[0-9]{4}-[0-9]{6}" required><br><br>
+        <label for="comentario">Comentarios:</label><br>
+        <textarea name="comentario" id="comentario" rows="8" cols="50"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

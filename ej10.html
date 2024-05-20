@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro De Visitas</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="mail">Mail:</label>
+        <input type="email" name="mail" id="mail"><br><br>
+        <label for="pais">País de Origen:</label>
+        <select name="pais" id="pais">
+            <option value="" disabled selected>Seleccione País</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+        <input type="radio" name="valoracion" id="malo" value="malo">Malo <br>
+        <input type="radio" name="valoracion" id="regular" value="regular"> Regular <br>
+        <input type="radio" name="valoracion" id="bueno" value="bueno" checked>Bueno<br>
+        <input type="radio" name="valoracion" id="muy bueno" value="muy bueno">Muy bueno <br>
+        <input type="radio" name="valoracion" id="excelente" value="excelente">Excelente <br>
+        <br>
+        <label for="mensaje">Ingrese comentario</label><br>
+        <textarea name="mensaje" id="mensaje" cols="28" rows="6">
+        </textarea>
+    </form>
+</body>
+</html>
